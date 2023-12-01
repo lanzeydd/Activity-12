@@ -1,0 +1,161 @@
+header {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  color: white;
+}
+
+a {
+  padding-left: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+a:hover {
+  color: orange;
+  margin: auto;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 4px;
+}
+
+nav {
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.s0 { 
+  min-width: 300px; 
+  margin: 10px; 
+  padding: 20px;
+  border: 5px solid red;
+  border-radius: 10px;  
+  text-align: left;
+  background-image: url(image/act11.jpg);
+  color: white;
+}
+
+
+
+.s1{
+  background-color: darkgreen;
+  text-align: left;
+  border-bottom: 50px;
+  border-top: 50px;
+  border-color: gold;
+}
+
+.s2{
+  border-bottom: 50px;
+  border-top: 50px;
+  text-align: left;
+  border-color: gold;
+  background-color: darkgreen;
+}
+
+.s3{
+  background-color: darkgreen;
+  text-align: left;
+  border-bottom: 50px;
+  border-top: 50px;
+  border-color: gold;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+@media(max-width: 420px) {
+  .s0 { 
+    min-width: 30%; 
+    margin: 10%; 
+    padding: 20%;
+    border: 5% solid red;
+    border-radius: 10%;  
+    text-align: left;
+    background-image: url(image/act11.jpg);
+    color: white;
+  }
+  
+  
+  
+  .s1{
+    background-color: darkgreen;
+    text-align: left;
+    border-bottom: 50%;
+    border-top: 50%;
+    border-color: gold;
+  }
+  
+  .s2{
+    border-bottom: 50%;
+    border-top: 50%;
+    text-align: left;
+    border-color: gold;
+    background-color: darkgreen;
+  }
+  
+  .s3{
+    background-color: darkgreen;
+    text-align: left;
+    border-bottom: 50%;
+    border-top: 50%;
+    border-color: gold;
+  }
+  
+}
+
+@media(max-width: 768px) {
+  .s0 { 
+    min-width: 30%; 
+    margin: 10%; 
+    padding: 20%;
+    border: 5% solid red;
+    border-radius: 10%;  
+    text-align: left;
+    background-image: url(image/act11.jpg);
+    color: white;
+  }
+  
+  
+  
+  .s1{
+    background-color: darkgreen;
+    text-align: left;
+    border-bottom: 50%;
+    border-top: 50%;
+    border-color: gold;
+  }
+  
+  .s2{
+    border-bottom: 50%;
+    border-top: 50%;
+    text-align: left;
+    border-color: gold;
+    background-color: darkgreen;
+  }
+  
+  .s3{
+    background-color: darkgreen;
+    text-align: left;
+    border-bottom: 50%;
+    border-top: 50%;
+    border-color: gold;
+  }
+  
+}
